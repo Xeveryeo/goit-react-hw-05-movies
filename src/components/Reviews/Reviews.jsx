@@ -18,7 +18,7 @@ const Reviews = () => {
               <p>{content}</p>
             </li>
           ))
-        : "Sorry, we don't have any review for this movie at the moment."}
+        : "We don't have any review for this movie."}
     </ul>
   );
 };
