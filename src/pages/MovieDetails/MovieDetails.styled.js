@@ -8,7 +8,7 @@ export const MovieBox = styled.div`
   display: flex;
   padding: 20px;
   border-bottom: solid 1px grey;
-  background-color: #63c5da;
+  background-color: #f3f6f4;
 `;
 export const MovieInfo = styled.div`
   padding: 20px 40px;
@@ -31,7 +31,7 @@ export const Button = styled.button`
   text-decoration: none;
   &:hover,
   &:focus {
-   background-color: #63c5da;
+   background-color: #f3f6f4;
     
   }
 `;
@@ -59,10 +59,10 @@ export const LinkCast = styled(Link)`
   font-size: 14px;
   align-items: center;
   column-gap: 10px;
-  color: white;
+  color: black;
    &:hover,
   &:focus {
-   color: #0b0c0c;
+   color: #16537e;
 `;
 
 export const LinkReviews = styled(Link)`
@@ -71,8 +71,8 @@ export const LinkReviews = styled(Link)`
   font-size: 14px;
   align-items: center;
   column-gap: 10px;
-  color: white;
+  color: black;
    &:hover,
   &:focus {
-   color: #0b0c0c;
+   color: #16537e;
 `;
